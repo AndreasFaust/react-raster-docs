@@ -1,0 +1,87 @@
+---
+id: getting-started
+title: Getting Started
+---
+
+### PeerDependencies
+
+- react: >= 16.8.0,
+- react-dom: >= 16.8.0,
+- styled-components: >= 5.2.0
+---
+
+### Install
+Install all dependencies with your favourite `package-manager`:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="yarn"
+  values={[
+    {label: 'Yarn', value: 'yarn'},
+    {label: 'npm', value: 'npm'},
+  ]}
+>
+<TabItem value="yarn">
+
+```bash
+yarn add react-raster styled-components react react-dom
+```  
+
+</TabItem>
+<TabItem value="npm">
+
+```bash 
+  npm install --save react-raster styled-components react react-dom
+```
+
+</TabItem>
+</Tabs>
+
+
+---
+### Usage
+`react-raster` has only two components: **Grid** and **Box**.
+- **Grid** is the wrapper, that defines the grid’s basics like gutter, breakpoints and other things.
+- **Box** is the element, that gets positioned inside the Grid.
+
+Boxes and Grids can be freely nested inside each other.
+
+```tsx
+import {Box, Grid} from "react-raster";
+```  
+
+
+```jsx live
+function BasicExample() {
+  return (
+    <Grid
+      colspan={6}
+      left={"2vw"}
+      right={"2vw"}
+      top={"2vw"}
+      bottom={"2vw"}
+      gutterX={"2vw"}
+      gutterY={"2vw"}
+      control
+    >
+        <Box 
+          cols={[6,6,4]}
+          height="200px"
+          css={`background: blue;`}
+        >
+            <h1>Hello World!</h1>
+        </Box>
+        <Box cols={[6, 6, 3]}>
+            <Box cols={[4, 4, 2]} left={[2, 2, 1]}>
+              <h2>Stop</h2>
+            </Box>
+            <Box cols={[4, 4, 2]} left={[2, 2, 1]}>
+              <h2>Wars!</h2>
+            </Box>
+        </Box>
+    </Grid>
+  );
+}
+```

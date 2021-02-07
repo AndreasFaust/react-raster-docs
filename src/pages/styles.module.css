@@ -1,0 +1,91 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ .heroBanner {
+  padding: 0 0 2rem 0;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  color: #222;
+}
+
+.bannerImg {
+  position: relative;
+   width: 100%;
+   background-image:url('/static/img/header-bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   margin-bottom: 1rem;
+}
+.bannerImg::after {
+  content: "";
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-top: 33.33%;
+}
+
+.heroImg {
+  width: 15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    /* padding: 2rem; */
+  }
+  .heroImg{
+    width: 10rem;
+  }
+  .bannerImg::after {
+    padding-top: 60%;
+  }  
+}
+
+.heroSubtitle {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 3rem;
+  width: 100%;
+  background: #efefef;
+  text-align: center;
+}
+
+[data-theme="dark"] .features {
+  background: #222;
+}
+
+.features p {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
