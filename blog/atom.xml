@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://andreasfaust.github.io/blog"/>
     <subtitle>react-raster Blog</subtitle>
-    <icon>https://andreasfaust.github.io/img/favicon.ico</icon>
+    <icon>https://andreasfaust.github.io/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome, to react-raster’s documentation]]></title>
         <id>welcome-new-docs</id>
