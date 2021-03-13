@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{70:function(e){e.exports=JSON.parse('{"allTagsPath":"/react-raster-docs/blog/tags","slug":"welcome","name":"welcome","count":1,"permalink":"/react-raster-docs/blog/tags/welcome"}')}}]);

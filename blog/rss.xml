@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>react-raster Blog</title>
+        <link>https://andreasfaust.github.io/blog</link>
+        <description>react-raster Blog</description>
+        <lastBuildDate>Sat, 13 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome, to react-raster’s documentation]]></title>
+            <link>https://andreasfaust.github.io/react-raster-docs/blog/welcome-new-docs</link>
+            <guid>welcome-new-docs</guid>
+            <pubDate>Sat, 13 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I need complex grids. That’s why I take this project serious. By equiping it with a professional documentation, I hope to gain more users and more feedback. Feel free to write me your thoughts on this and create issues and PRs.]]></description>
+        </item>
+    </channel>
+</rss>

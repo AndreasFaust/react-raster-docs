@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://andreasfaust.github.io/blog</id>
+    <title>react-raster Blog</title>
+    <updated>2021-03-13T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://andreasfaust.github.io/blog"/>
+    <subtitle>react-raster Blog</subtitle>
+    <icon>https://andreasfaust.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome, to react-raster’s documentation]]></title>
+        <id>welcome-new-docs</id>
+        <link href="https://andreasfaust.github.io/react-raster-docs/blog/welcome-new-docs"/>
+        <updated>2021-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I need complex grids. That’s why I take this project serious. By equiping it with a professional documentation, I hope to gain more users and more feedback. Feel free to write me your thoughts on this and create issues and PRs.]]></summary>
+    </entry>
+</feed>
