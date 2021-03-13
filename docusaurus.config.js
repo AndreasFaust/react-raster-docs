@@ -1,21 +1,21 @@
 module.exports = {
+  url: 'https://andreasfaust.github.io/',
+  baseUrl: '/react-raster-docs/',
+  projectName: 'react-raster-docs', // Usually your repo name.
+  organizationName: 'andreasfaust', // Usually your GitHub org/user name.
   title: 'react-raster',
   tagline: 'react-raster is an advanced Grid-System, which is highly customizable and ready for server-side-rendering.',
-  url: 'https://https://andreasfaust.github.io/react-raster/',
-  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'https://https://andreasfaust.github.io', // Usually your GitHub org/user name.
-  projectName: 'react-raster', // Usually your repo name.
+  favicon: 'favicon.ico',
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
       title: 'react-raster',
       logo: {
         alt: 'react-raster Logo',
-        src: 'img/react-raster-logo-reduced.svg',
-        srcDark: "img/react-raster-logo-reduced-white.svg"    
+        src: 'react-raster-logo-reduced.svg',
+        srcDark: "react-raster-logo-reduced-white.svg"    
       },
       items: [
         {

@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Simplified',
-    imageUrl: 'icon-simplyfied.svg',
+    imageUrl: '/icon-simplyfied.svg',
     description: (
       <>
         A simplified, but flexible interface for CSS Grid Layout. 
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: 'Centralized',
-    imageUrl: 'icon-centralized.svg',
+    imageUrl: '/icon-centralized.svg',
     description: (
       <>
         Manage your Grid and all CSS directly in your React Components. 
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: 'Combinable',
-    imageUrl: 'icon-combinable.svg',
+    imageUrl: '/icon-combinable.svg',
     description: (
       <>
         Combinable with your favorite tools like NextJS and Framer Motion.
@@ -60,7 +60,7 @@ function Home() {
       description="Documentation for react-raster, a grid-system for simplifying layout.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className={styles.bannerImg}>
-          <img className={clsx(styles.heroImg)} src="/static/img/react-raster-logo.svg" alt="react-raster Logo"/>
+          <img className={clsx(styles.heroImg)} src={useBaseUrl("/react-raster-logo.svg")} alt="react-raster Logo"/>
         </div>
         <div className={clsx("container")}>
           <h1 className={clsx("hero__subtitle", styles.heroSubtitle)}>{siteConfig.tagline}</h1>
