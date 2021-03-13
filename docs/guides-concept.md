@@ -4,7 +4,7 @@ title: Concept
 ---
 
 **Layouting user-interfaces is tough.** Every viewport-size needs its own composition. 
-react-raster provides a simplified, but still flexible interface for `CSS Grid Layout`. With `react-raster` defining a grid and placing and stacking boxes is as easy as never before.
+`react-raster` provides a simplified, but flexible interface for `CSS Grid Layout`. With `react-raster` defining a grid and placing and stacking boxes is as easy as never before.
 
 ---
 ### 1. Define your Grid and style it in one place
@@ -26,4 +26,4 @@ When components are wrapped inside each other, `react-raster` keeps track of you
 
 ---
 ### 5. Grid-Layout-Polyfill
-Additionally it polyfills `Grid Layout` using `Flexbox`, if you need to support older browsers. 
+Additionally it polyfills `Grid Layout` using `Flexbox`, if you need to support legacy browsers. 

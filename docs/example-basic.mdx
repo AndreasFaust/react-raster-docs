@@ -1,0 +1,45 @@
+---
+id: example-basic
+title: Basic Usage
+---
+
+Code Sandbox: 
+
+```tsx
+import {Box, Grid} from "react-raster";
+```  
+
+```jsx live
+function BasicExample() {
+  return (
+    <Grid
+      colspan={[6,6,12]}
+      left={"2vw"}
+      right={"2vw"}
+      top={"2vw"}
+      bottom={"2vw"}
+      gutterX={"2vw"}
+      gutterY={"2vw"}
+      control
+    >
+        <Box 
+          cols={[3,3,6]}
+          css={`background: blue;`}
+          alignX="center"
+          alignY="center"
+          height="200px"
+        >
+            <h2>Hello</h2>
+        </Box>
+        <Box 
+          cols={[3, 3, 6]} 
+          css={`background: yellow;`}
+          alignX="center"
+          alignY="center"
+        >
+          <h2>World!</h2>
+        </Box>
+    </Grid>
+  );
+}
+```

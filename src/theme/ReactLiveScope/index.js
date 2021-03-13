@@ -7,12 +7,13 @@
 
 import React from 'react';
 import { Grid, Box } from 'react-raster';
-
+import { motion } from 'framer-motion'
 // Add react-live imports you need here
 const ReactLiveScope = {
   React,
   Grid, 
   Box,
+  motion,
   ...React,
 };
 

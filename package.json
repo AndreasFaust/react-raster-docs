@@ -13,11 +13,14 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
     "@docusaurus/core": "2.0.0-alpha.70",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
+    "@saucelabs/theme-github-codeblock": "^0.0.4",
     "clsx": "^1.1.1",
+    "framer-motion": "^3.10.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-raster": "^7.0.6",

@@ -1,6 +1,0 @@
----
-id: box
-title: Box
----
-
-

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<style type="text/css">
+	.st0{fill:#E62046;}
+	.st1{fill:#51C2EC;}
+</style>
+<rect class="st0" width="892.5" height="72.5"/>
+<rect x="892" class="st1" width="108" height="73"/>
+<rect x="460" y="133.29" class="st1" width="540" height="72"/>
+<rect x="631" y="265.57" class="st1" width="369" height="72"/>
+<rect x="748" y="397.86" class="st1" width="252" height="72"/>
+<rect x="883" y="530.14" class="st1" width="117" height="72"/>
+<rect x="496" y="662.43" class="st1" width="504" height="72"/>
+<rect x="379" y="794.71" class="st1" width="621" height="72"/>
+<rect x="910" y="927" class="st1" width="90" height="73"/>
+<rect x="0.5" y="132.82" class="st0" width="460" height="72"/>
+<rect x="0.5" y="265.14" class="st0" width="631" height="72"/>
+<rect x="0.5" y="397.46" class="st0" width="748" height="72"/>
+<rect x="0.5" y="529.79" class="st0" width="882" height="72"/>
+<rect y="662.11" class="st0" width="496" height="72"/>
+<rect y="794.43" class="st0" width="379" height="72"/>
+<rect x="-0.5" y="927" class="st0" width="910.5" height="72.5"/>
+</svg>

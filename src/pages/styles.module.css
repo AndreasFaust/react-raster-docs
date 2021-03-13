@@ -69,8 +69,8 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 0 2rem 3rem;
   width: 100%;
+  padding: 2rem 10% 2rem;
   background: #efefef;
   text-align: center;
 }
@@ -86,6 +86,7 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 75px;
+  width: 100px;
+  margin: 1rem;
 }
