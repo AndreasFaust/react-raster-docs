@@ -22,3 +22,4 @@ All props are optional. `Generic Props` like Events and HTML-Attributes are pass
 | **right**         | `Number Number[]` | `0`         | Right margin of the Box. Unit: Grid-columns.                                                                                                                                       |
 | **top**           | `Number Number[]` | `0`         | Top margin of the Box. Unit: Grid-columns.                                                                                                                                         |
 | **tag**           | `String`                     | `'div'`     | HTML-Tag                                                                                                                                                                           |
+
