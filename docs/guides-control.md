@@ -16,6 +16,9 @@ function Example() {
             gutterY={'10px'}
             control // false by default
         >
+            <Box css={`text-align: center;`}>
+                Press <strong>ESC</strong> to see the Grid
+            </Box>
             <Box cols={4} css={`height: 200px; background: blue;`}/>
             <Box cols={4} css={`height: 200px; background: blue;`}/>
             <Box cols={4} css={`height: 200px; background: blue;`}/>

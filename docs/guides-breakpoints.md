@@ -22,7 +22,7 @@ If the prop-array is shorter than the breakpoints-array, the last value is adapt
 
 This simple example defines a grid with a left padding:
 
-![Graphic to illustrate how the elements of an props-array match breakpoints.](/breakpoints.png)
+![Graphic to illustrate how the elements of an props-array match breakpoints.](/breakpoints.svg)
 
 - 0px — 499px: 3vw
 - 500px — 999px: 2vw

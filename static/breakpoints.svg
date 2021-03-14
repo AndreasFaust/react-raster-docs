@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3330 1000">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;}
+	.st2{font-family:'IBMPlexMono';}
+	.st3{font-size:100px;}
+	.st4{fill:#E62046;}
+	.st5{fill:#0096D3;}
+	.st6{fill:#2D2E83;}
+</style>
+<rect class="st0" width="3330" height="1000"/>
+<rect x="126" y="135" class="st1" width="3105" height="810"/>
+<text transform="matrix(1 0 0 1 126 208.999)"><tspan x="0" y="0" class="st2 st3">&lt;</tspan><tspan x="60" y="0" class="st4 st2 st3">Grid</tspan><tspan x="0" y="120" class="st2 st3">    </tspan><tspan x="240" y="120" class="st5 st2 st3">breakpoints</tspan><tspan x="899.99" y="120" class="st2 st3">={[</tspan><tspan x="1079.98" y="120" class="st6 st2 st3">0</tspan><tspan x="1139.98" y="120" class="st2 st3">, </tspan><tspan x="1259.98" y="120" class="st6 st2 st3">500</tspan><tspan x="1439.98" y="120" class="st2 st3">, </tspan><tspan x="1559.97" y="120" class="st6 st2 st3">1000</tspan><tspan x="1799.97" y="120" class="st2 st3">, </tspan><tspan x="1919.97" y="120" class="st6 st2 st3">1200</tspan><tspan x="2159.96" y="120" class="st2 st3">, </tspan><tspan x="2279.96" y="120" class="st6 st2 st3">1400</tspan><tspan x="2519.96" y="120" class="st2 st3">]}</tspan><tspan x="0" y="600" class="st2 st3">    </tspan><tspan x="240" y="600" class="st5 st2 st3">left=</tspan><tspan x="539.99" y="600" class="st2 st3">{[</tspan><tspan x="659.99" y="600" class="st6 st2 st3">“3vw“</tspan><tspan x="959.98" y="600" class="st2 st3">, </tspan><tspan x="1079.98" y="600" class="st6 st2 st3">“2vw“</tspan><tspan x="1379.98" y="600" class="st2 st3">, </tspan><tspan x="1499.98" y="600" class="st6 st2 st3">“1vw“</tspan><tspan x="1799.97" y="600" class="st2 st3">]}</tspan><tspan x="0" y="720" class="st2 st3">/&gt;</tspan></text>
+<g>
+	<g>
+		<g>
+			<polygon points="982.9,685.44 1190.08,411.96 1196.72,423.52 1206,387 1173.35,405.82 1186.29,409.08 979.1,682.56 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon points="1388.29,684.63 1461.53,416.09 1472,424.35 1467,387 1443.72,416.64 1456.94,414.84 1383.7,683.37 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon points="1775.38,684.07 1783.48,416.57 1795.6,422.15 1782,387 1766.3,421.26 1778.73,416.42 1770.62,683.93 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon points="1846.79,685.57 2088.31,410.73 2094.09,422.75 2106,387 2072.07,403.4 2084.73,407.59 1843.21,682.43 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon points="1936.13,686.09 2459.18,403.13 2460.44,416.41 2484,387 2446.49,390.63 2456.91,398.95 1933.87,681.91 			"/>
+		</g>
+	</g>
+</g>
+</svg>

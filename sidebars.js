@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       collapsed: false,
-      items: ['concept', 'getting-started', 'breakpoints', 'typescript', 'control', 'nextjs', 'polyfill'],
+      items: ['concept', 'getting-started', 'breakpoints', 'styling', 'typescript', 'control', 'nextjs', 'polyfill'],
     },
     {
       type: 'category',
@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Examples',
       collapsed: false,
-      items: ['example-basic', 'example-advanced', 'modify-box', 'box-motion', 'motion-link'],
+      items: ['example-basic', 'modify-box', 'box-motion', 'motion-link'],
     },
   ],
 };
