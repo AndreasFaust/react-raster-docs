@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{71:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Version 8 is a complete rewrite","permalink":"/react-raster-docs/blog/version-8"},{"title":"Welcome, to react-raster\u2019s documentation","permalink":"/react-raster-docs/blog/welcome-new-docs"}]}')}}]);

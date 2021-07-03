@@ -4,9 +4,16 @@
         <title>react-raster Blog</title>
         <link>https://andreasfaust.github.io/blog</link>
         <description>react-raster Blog</description>
-        <lastBuildDate>Sat, 13 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Version 8 is a complete rewrite]]></title>
+            <link>https://andreasfaust.github.io/react-raster-docs/blog/version-8</link>
+            <guid>version-8</guid>
+            <pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Seeing the rise of Tailwind and Chakra JS, I adapted some new concepts and filled in the missing pieces, to make working with react-raster finally truely satisfying.]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome, to react-raster’s documentation]]></title>
             <link>https://andreasfaust.github.io/react-raster-docs/blog/welcome-new-docs</link>
