@@ -8,15 +8,15 @@ In Typescript you need to import the types.
 
 ```tsx
 import React from "react";
-import { Box, Types } from "react-raster";
+import Box, { Props } from "react-raster";
 
-const SpecialBox: React.FC<Types.Box> = (props) => (
+const SpecialBox: React.FC<Props> = (props) => (
   <Box {...props}>{props.children}</Box>
 );
 
 SpecialBox.defaultProps = {
   cols: [6, 6, 3],
-  css: `background: yellow;`
+  css: `background: yellow;`,
 };
 
 export default SpecialBox;

@@ -3,8 +3,7 @@ id: nextjs
 title: Next JS
 ---
 
-To use `react-raster` with `NextJS` you need to take some following steps: 
-
+To use `react-raster` with `NextJS` you need to take some following steps:
 
 ## Setup Styled-Components
 
@@ -60,19 +59,18 @@ export default class MyDocument extends Document {
 }
 ```
 
-
 ## Combine `Box` with the `Link`
 
 The best way to combine links in `NextJS` with `react-raster` is to set the `passHref`-prop on your `Link`-Component. This will automatically infuse a `href`- and `onClick`-prop to its wrapped `Box`, which also needs to have set `tag="a"`, to be an `anchor`-tag. So there is no need for an extra anchor-tag, which might complicate your data-structure!
 
 ```jsx
 import React from "react";
-import { Grid, Box } from "react-raster";
+import Box from "react-raster";
 import Link from "next/link";
 
 const BoxLink = (props) => (
   <Link href={props.href} passHref>
-    <Box tag="a" {...props}>
+    <Box as="a" {...props}>
       {props.children}
     </Box>
   </Link>

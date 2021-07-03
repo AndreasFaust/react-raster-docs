@@ -4,13 +4,13 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       collapsed: false,
-      items: ['concept', 'getting-started', 'breakpoints', 'styling', 'typescript', 'control', 'nextjs', 'polyfill'],
+      items: ['concept', 'getting-started', 'breakpoints', 'margin-padding', 'styling', 'intersection-observer', 'typescript', 'control', 'nextjs'],
     },
     {
       type: 'category',
       label: 'API',
       collapsed: false,
-      items: ['grid', 'box', 'use-raster'],
+      items: ['box', 'use-raster'],
     },
     {
       type: 'category',

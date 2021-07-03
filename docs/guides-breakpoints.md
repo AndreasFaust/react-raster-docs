@@ -9,6 +9,7 @@ Breakpoints is an array of numbers starting with `0`.
 Every number defines a `min-width`.
 
 #### Default Breakpoints
+
 ```json
 [0, 432, 768, 1024, 1200, 1400]
 ```
@@ -29,4 +30,4 @@ This simple example defines a grid with a left padding:
 - 1000px — infinite: 1vw
 
 **Almost all props support this feature.**
-Look up the props-specification for `Grid` and `Box` below.
+Look up the props-specification for `Box`.

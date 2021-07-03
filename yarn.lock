@@ -6828,10 +6828,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
-nanoid@^3.1.20:
-  version "3.1.20"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
-  integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+nanoid@^3.1.23:
+  version "3.1.23"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
+  integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8530,12 +8530,12 @@ react-loadable@^5.5.0:
   dependencies:
     prop-types "^15.5.0"
 
-react-raster@^7.0.6:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/react-raster/-/react-raster-7.0.6.tgz#ad8f4724df884c58a97654108db9905b4a2883ea"
-  integrity sha512-SgqMWse46vorYRrLtIyPyF9FSq/3mYlMW14dAdknH1I+esWwnC/5r9KfItnQPhhvgfN49k4oqspYJH08XL59HA==
+react-raster@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/react-raster/-/react-raster-8.0.1.tgz#69d06e46b6643ab1ac110e6f86d8f6a6ef38d99a"
+  integrity sha512-rppYdNxuttkIMb9T7Y4p4hnyaSr3r89UWgSSkKQspLSwXTNk9vSyOn803+WmkOVaqf+DDYNebrORNonFzoqEZg==
   dependencies:
-    nanoid "^3.1.20"
+    nanoid "^3.1.23"
 
 react-router-config@^5.1.1:
   version "5.1.1"
