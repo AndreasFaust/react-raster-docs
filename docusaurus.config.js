@@ -26,7 +26,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://https://github.com/AndreasFaust/react-raster',
+          href: 'https://github.com/AndreasFaust/react-raster',
           label: 'GitHub',
           position: 'right',
         },
