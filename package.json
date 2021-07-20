@@ -23,7 +23,7 @@
     "framer-motion": "^3.10.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-raster": "^8.0.1",
+    "react-raster": "^8.0.4",
     "styled-components": "^5.2.1"
   },
   "browserslist": {

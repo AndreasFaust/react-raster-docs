@@ -8530,10 +8530,10 @@ react-loadable@^5.5.0:
   dependencies:
     prop-types "^15.5.0"
 
-react-raster@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/react-raster/-/react-raster-8.0.1.tgz#69d06e46b6643ab1ac110e6f86d8f6a6ef38d99a"
-  integrity sha512-rppYdNxuttkIMb9T7Y4p4hnyaSr3r89UWgSSkKQspLSwXTNk9vSyOn803+WmkOVaqf+DDYNebrORNonFzoqEZg==
+react-raster@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/react-raster/-/react-raster-8.0.4.tgz#d173e178e55860237a737f1d3c3f62208459c10c"
+  integrity sha512-UmDrlqtCPznNuPMAshijzW1b6HXMGKCg71/NXbhqgTL1lwEi4ve7j55otM19bHg8fxuHNgPV6eopsYxsToIv+A==
   dependencies:
     nanoid "^3.1.23"
 

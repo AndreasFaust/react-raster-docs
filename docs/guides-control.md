@@ -3,7 +3,7 @@ id: control
 title: Visual Control
 ---
 
-`react-raster` provides **visual control** of your Grid. Just add the prop `control` to the `Grid`-component.
+`react-raster` provides **visual control** of your Grid. Just add the prop `control` to the `Box`-component, that defines your grid.
 
 > Press `ESC` to switch it on and off.
 
@@ -12,38 +12,20 @@ function Example() {
   return (
     <Box
       colspan={12}
-      gutterX={"10px"}
-      gutterY={"10px"}
+      gridColumnGap={"10px"}
+      gridRowGap={"10px"}
       control // false by default
     >
       <Box
-        css={`
+        styles={`
           text-align: center;
         `}
       >
         Press <strong>ESC</strong> to see the Grid
       </Box>
-      <Box
-        cols={4}
-        css={`
-          height: 200px;
-          background: blue;
-        `}
-      />
-      <Box
-        cols={4}
-        css={`
-          height: 200px;
-          background: blue;
-        `}
-      />
-      <Box
-        cols={4}
-        css={`
-          height: 200px;
-          background: blue;
-        `}
-      />
+      <Box cols={4} height="200px" background="blue" />
+      <Box cols={4} height="200px" background="blue" />
+      <Box cols={4} height="200px" background="blue" />
     </Box>
   );
 }
@@ -51,7 +33,7 @@ function Example() {
 
 ### Production-handling
 
-To use `visual control` just in development, connect it to `process.env.NODE_ENV`.
+To use visual control only in development, bind it to `process.env.NODE_ENV`.
 
 ```jsx
 <Box control={process.env.NODE_ENV !== "production"} />
@@ -59,7 +41,7 @@ To use `visual control` just in development, connect it to `process.env.NODE_ENV
 
 ### Control Color
 
-You can setup a custom color for `visual control`.
+You can setup a **custom color** for visual control.
 
 ```jsx
 <Box controlColor="rgba(0, 255, 0, 0.1)" />
