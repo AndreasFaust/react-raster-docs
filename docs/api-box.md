@@ -27,12 +27,11 @@ All props are optional. `Generic Props` like Events and HTML-Attributes are pass
 | **root**        | `HTML-Element Document` | `null`      | `Intersection Observer`’s root                                                                                                                                                                          |
 | **rootMargin**  | `string`                | `0px`       | `Intersection Observer`’s rootMargin                                                                                                                                                                    |
 | **threshold**   | `number number[]`       | `0`         | `Intersection Observer`’s threshold                                                                                                                                                                     |
-
-| **ref** | `React Ref-Object` | `null` | Pass a ref. |
-| **as** | `String` | `'div'` | HTML-Tag |
+| **ref**         | `React Ref-Object`      | `null`      | Pass a ref.                                                                                                                                                                                             |
+| **as**          | `String`                | `'div'`     | HTML-Tag                                                                                                                                                                                                |
 
 ## Props for Styling
 
-- `react-raster` supports all CSS-properties (written in camelcase).
+- `react-raster` supports many CSS-properties (written in camelcase).
 - Here is the complete list and type-definition:
-  https://github.com/AndreasFaust/react-raster/blob/d0901391004d19522a62ac8805798d8315fd72e9/src/Box/props.ts
+  https://github.com/AndreasFaust/react-raster/blob/e1a9fe56de3d5ce2473b0e29166efe7835aa679e/src/Box/props.ts

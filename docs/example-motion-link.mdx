@@ -1,8 +1,17 @@
 ---
 id: motion-link
-title:  Animate with NextJS and Framer Motion
+title: Animate with NextJS and Framer Motion
 ---
 
 This example animates `Boxes` on page-transition.
 
-<iframe width="100%" height="500px" src="https://codesandbox.io/embed/react-raster-example-with-framer-motion-and-nextlink-j4wg6?fontsize=14&hidenavigation=1&theme=dark&view=preview" />
+<iframe
+  width="100%"
+  height="500px"
+  src="https://codesandbox.io/embed/react-raster-example-with-framer-motion-and-nextlink-j4wg6?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+/>
+
+> To make Framer Motion's `staggerChildren` work correctly, this example uses imperative routing instead of Next’s`Link`-Component.
+> If `staggerChildren` is not needed, check out [/docs/nextjs#combine-box-with-link](/docs/nextjs#combine-box-with-link).
+
+More Information: https://nextjs.org/docs/routing/imperatively

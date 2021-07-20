@@ -10,17 +10,8 @@ title: Visual Control
 ```jsx live
 function Example() {
   return (
-    <Box
-      colspan={12}
-      gridColumnGap={"10px"}
-      gridRowGap={"10px"}
-      control // false by default
-    >
-      <Box
-        styles={`
-          text-align: center;
-        `}
-      >
+    <Box colspan={12} gridColumnGap={"10px"} gridRowGap={"10px"} control>
+      <Box textAlign="center">
         Press <strong>ESC</strong> to see the Grid
       </Box>
       <Box cols={4} height="200px" background="blue" />
