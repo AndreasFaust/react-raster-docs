@@ -11,10 +11,13 @@ Until version `7` react-raster provided a fallback for browsers, that do not sup
 
 ---
 
-### 2. Box is now default export
+### 2. Exports have changed
+
+- `Box` is now **default export**.
+- `Types` is now `Props`.
 
 ```jsx
-import Box from "react-raster";
+import Box, { Props } from "react-raster";
 ```
 
 ---

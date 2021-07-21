@@ -16,7 +16,7 @@ const SpecialBox: React.FC<Props> = (props) => (
 
 SpecialBox.defaultProps = {
   cols: [6, 6, 3],
-  css: `background: yellow;`,
+  background: "yellow",
 };
 
 export default SpecialBox;
