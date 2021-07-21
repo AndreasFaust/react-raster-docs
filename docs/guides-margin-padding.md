@@ -1,11 +1,11 @@
 ---
 id: margin-padding
-title: Margin & Padding
+title: Margin and Padding
 ---
 
-- Spacing can be either defined in a `CSS-unit` like `px`, `rem` or `%`.
-- Or as `unitless number`, which sets the unit `grid-columns`.
-- `Margin` and `Padding` can be — like in CSS — written out for every direction separately or in one single command.
+- Spacing can be either defined in a **CSS-unit** like `px`, `rem` or `%`.
+- Or as **unitless number**, which sets the unit **grid-columns**.
+- **Margin** and **Padding** can be — like in CSS — written out for every direction separately or in one single command.
 
 ```jsx live
 function BasicExample() {

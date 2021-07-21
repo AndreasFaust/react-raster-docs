@@ -3,7 +3,7 @@ id: control
 title: Visual Control
 ---
 
-`react-raster` provides **visual control** of your Grid. Just add the prop `control` to the `Box`-component, that defines your grid.
+react-raster provides **visual control** of your Grid. Just add the prop `control` to the `Box`-component, that defines your grid.
 
 > Press `ESC` to switch it on and off.
 

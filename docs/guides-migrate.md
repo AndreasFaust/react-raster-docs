@@ -7,7 +7,7 @@ Version `8` is a vast rewrite.
 
 ### 1. Fallback for CSS Grid Layout was removed
 
-Until version `7` react-raster provided a fallback for browsers, that do not support `CSS Grid Layout`. In version `8` this feature was removed. **If you rely on it, you need to stick to version 7.**
+Until version `7` react-raster provided a fallback for browsers, that do not support **CSS Grid Layout**. In version `8` this feature was removed. **If you rely on it, you need to stick to version 7.**
 
 ---
 
@@ -42,9 +42,9 @@ Change all `Grid`-components to `Box`
 
 ### 4. Box-Alignment was removed
 
-- react-raster used to provide alignment `center` and `right` for `CSS Grid Layout`. The props were named `alignX` and `alignY`. **This feature was removed.**
-- In `Grid Layout` Boxes are aligned with `margin` now manually.
-- With `Flexbox` Boxes are aligned with `justifyContent` and `alignItems`/`alignContent`.
+- react-raster used to provide alignment `center` and `right` for **CSS Grid Layout**. The props were named `alignX` and `alignY`. **This feature was removed.**
+- In **Grid Layout** Boxes are aligned with `margin` now manually.
+- With **Flexbox** Boxes are aligned with `justifyContent` and `alignItems`/`alignContent`.
 
 ---
 
