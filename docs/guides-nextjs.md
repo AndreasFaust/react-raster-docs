@@ -9,13 +9,13 @@ To use `react-raster` with `NextJS` you need to take some following steps:
 
 To use it alongside `styled-components` you might need to:
 
-#### Install `babel-plugin-styled-components`
+#### 1. Install `babel-plugin-styled-components`
 
 ```bash
 yarn add -D babel-plugin-styled-components
 ```
 
-#### Create `babel-config.json` file in your `root`-directory
+#### 2. Create `babel-config.json` file in your `root`-directory
 
 ```json
 {
@@ -24,7 +24,7 @@ yarn add -D babel-plugin-styled-components
 }
 ```
 
-#### Add `_document.jsx` to your `pages`-directory
+#### 3. Add `_document.jsx` to your `pages`-directory
 
 ```jsx
 import Document from "next/document";

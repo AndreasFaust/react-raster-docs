@@ -13,7 +13,7 @@ import { Props } from "react-raster";
 
 ### Type-definition of all props
 
-https://github.com/AndreasFaust/react-raster/blob/master/src/Box/props.ts)
+https://github.com/AndreasFaust/react-raster/blob/master/src/Box/props.ts
 
 ### Modify a Box
 
