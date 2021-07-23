@@ -46,7 +46,7 @@ yarn add react-raster styled-components react react-dom
 ### Basic Usage
 
 - **react-raster** has only one component called `Box`.
-- Define `brekpoints` and a `colspan` to start a new Grid and nest `Box`-Elements inside each other, preserving the Grid.
+- Define `brekpoints`, `gap` (row/column) and a `colspan` to start a new Grid and nest `Box`-Elements inside each other, preserving the Grid.
 - Further style your `Box`-Elements directly via **props**.
 - Boxes and Grids can be freely nested inside each other.
 - If you set `control`, you can press `Esc` to see the grid.
@@ -60,29 +60,43 @@ function BasicExample() {
   return (
     <Box
       breakpoints={[0, 400, 800, 1200]}
-      colspan={6}
+      colspan={12}
       padding={"1rem"}
-      gridRowGap={"1rem"}
-      gridColumnGap={"1rem"}
+      gap="0.5rem 1rem"
       control
     >
+      <Box as="h3" marginBottom="1.5rem">
+        Press ESC to see the Grid
+      </Box>
+
       <Box
         as="h1"
-        margin="0"
-        cols={[6, 6, 3]}
+        margin="0px"
+        cols={[6]}
         padding="2rem"
         height={"500px"}
         background="lightblue"
         display="flex"
-        alignItems="center"
-        justifyContent="center"
+        alignItems="stretch"
+        justifyContent="stretch"
+        padding="1"
       >
-        Hello World!
+        <Box
+          background="#111"
+          margin="0px"
+          color="coral"
+          display="flex"
+          width="100%"
+          alignItems="center"
+          justifyContent="center"
+        >
+          Hello World!
+        </Box>
       </Box>
-      <Box cols={[6, 6, 3]} height="500px">
+      <Box cols={[6]} height="500px">
         <Box
           as="p"
-          margin="0"
+          margin="0px 0px 1 1"
           display="flex"
           color="white"
           alignItems="center"
@@ -95,7 +109,7 @@ function BasicExample() {
         </Box>
         <Box
           as="p"
-          margin="0"
+          margin="0px"
           display="flex"
           color="white"
           alignItems="center"
