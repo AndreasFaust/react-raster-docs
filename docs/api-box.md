@@ -34,4 +34,4 @@ All props are optional. **Generic Props** like Events and HTML-Attributes are pa
 
 - **react-raster** supports many CSS-properties (written in camelcase).
 - Here is the complete list and type-definition:
-  https://github.com/AndreasFaust/react-raster/blob/e1a9fe56de3d5ce2473b0e29166efe7835aa679e/src/Box/props.ts
+  https://github.com/AndreasFaust/react-raster/blob/master/src/Box/props.ts
